@@ -1,1 +1,21 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE table PUBLIC "dtd.dtd">
+<table_list>
+	<student name="Ivanov">
+		<mark discipline="Multimedia">3</mark>
+		<mark discipline="Web-design">3</mark>
+		<mark discipline="Graphics">5</mark>
+	</student>
+	<student name="Petrova">
+		<mark discipline="Multimedia">3</mark>
+		<mark discipline="Web-design">4</mark>
+		<mark discipline="Graphics">5</mark>
+		<mark discipline="Logic">4</mark>
+	</student>
+	<student name="Sidorenko">
+		<mark discipline="Multimedia">3</mark>
+    <mark discipline="Web-design">4</mark>
+		<mark discipline="Graphics">5</mark>
+		<mark discipline="Logic">4</mark>
+	</student>
+</table_list>
