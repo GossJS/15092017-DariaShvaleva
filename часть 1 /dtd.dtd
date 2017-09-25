@@ -1,1 +1,5 @@
-
+<! ELEMENT  table_list (student +)>
+<! ELEMENT student (mark +)>
+<! ELEMENT mark #PCDATA>
+<! ATTLIST student name CDATA #REQUIRED>
+<! ATTLIST mark discipline CDATA #REQUIRED>
