@@ -1,1 +1,22 @@
+<!ELEMENT mypersonalwebsite (DariaShvaleva, mycompetencies, myworks, contacts)+>
+<!ELEMENT DariaShvaleva EMPTY>
+<!ELEMENT mycompetencies (competency)+>
+<!ELEMENT competency EMPTY>
+<!ELEMENT myworks (work)+>
+<!ELEMENT work EMPTY>
+<!ELEMENT contacts EMPTY>
 
+<!ATTLIST DariaShvaleva
+  image CDATA #IMPLIED
+	geeting in CDATA #REQUIRED
+>
+<!ATTLIST competency 
+	in CDATA #REQUIRED
+	value CDATA #REQUIRED
+>
+<!ATTLIST work in CDATA #REQUIRED>
+<!ATTLIST contact 
+  myphone in CDATA #REQUIRED
+  myemail in CDATA #REQUIRED
+  mywebsite in CDATA #REQUIRED
+>
