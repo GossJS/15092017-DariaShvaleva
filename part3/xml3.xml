@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE StatisticsOfVisits PUBLIC "Shvaleva" "http://kodaktor.ru/j/dtd_a59ec">
+<StatisticsOfVisits>
+    <ip title="Самый частый IP-адрес" address="077.234.203.101" frequency="12"/>
+    <visits>
+        <platform type="computer">
+            <device name="Windows" frequency="87"/>
+            <device name="Linux" frequency="8"/>
+            <device name="MacOS" frequency="6"/>
+        </platform>
+        <platform type="mobile">
+            <device name="iPhone" frequency="11"/>
+            <device name="Android" frequency="5"/>
+        </platform>
+    </visits>
+    <list_ip title="5 наиболее часто встречающихся адресов в порядке убывания частоты:">
+        <ip address="077.234.203.101" frequency="12"/>
+        <ip address="005.144.096.251" frequency="11"/>
+        <ip address="081.222.086.058" frequency="6"/>
+        <ip address="094.019.018.060" frequency="4"/>
+        <ip address="005.164.066.173" frequency="4"/>
+    </list_ip>
+</StatisticsOfVisits>

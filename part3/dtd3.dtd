@@ -1,0 +1,20 @@
+
+<!ELEMENT StatisticsOfVisits (ip | visit | list_ip)+>
+    <!ELEMENT ip EMPTY>
+    <!ATTLIST ip
+    		title CDATA #IMPLIED
+        address CDATA #REQUIRED
+        frequency CDATA #REQUIRED  
+    >
+    <!ELEMENT visit (platform+)>
+        <!ELEMENT platform (device+)>
+        <!ATTLIST platform
+            type CDATA #REQUIRED
+        >
+            <!ELEMENT device EMPTY>
+            <!ATTLIST device
+                name CDATA #REQUIRED
+                frequency CDATA #REQUIRED
+            >
+    <!ELEMENT list_ip (ip+)>
+    <!ATTLIST list_ip title CDATA #REQUIRED>
