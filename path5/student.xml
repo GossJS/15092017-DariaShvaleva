@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE table PUBLIC "http://kodaktor.ru/j/dtd_078a1">
-<table_list>
+<table>
     <student name="Ivanov">
         <mark discipline="Multimedia">3</mark>
         <mark discipline="Web-design">3</mark>
@@ -18,4 +18,4 @@
         <mark discipline="Graphics">5</mark>
         <mark discipline="Logic">4</mark>
     </student>
-</table_list>
+</table>
